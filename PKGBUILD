@@ -10,6 +10,7 @@ arch=('i686' 'x86_64')
 license=('GPL2')
 url="https://github.com/rhboot/dumpet"
 depends=('glibc' 'libxml2-legacy' 'popt')
+makedepends=('git')
 source=("git+https://github.com/rhboot/${pkgname}.git#commit=${commit}")
 sha256sums=('fbfeb6c5966d8826db7205487d1c3c2080be65468038806c5518937d094b5a85')
 

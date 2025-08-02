@@ -6,6 +6,7 @@ pkgbase = dumpet
 	arch = i686
 	arch = x86_64
 	license = GPL2
+	makedepends = git
 	depends = glibc
 	depends = libxml2-legacy
 	depends = popt
